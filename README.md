@@ -33,7 +33,7 @@ Telegram 频道/群组 文件下载脚本
 
  - 修改telegram_channel_downloader.py文件内的 api_id 和 api_hash 为你自己的
 
- - 修改脚本内的频道名称、保存路径、 bot_token 、 admin_id 、 chat 等必填配置
+ - 修改脚本内的bot_token 、 admin_id等必填配置
  
  - 鉴于网友需要上传GD，特添加了使用gclone自动上传到团队盘的功能，需要在配置区域设置。具体查看脚本内注释
    
