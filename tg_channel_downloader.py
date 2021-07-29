@@ -167,7 +167,7 @@ async def handler(update):
             channel_id = text[1].split('/')[4]
             entity = await client.get_entity(PeerChannel(int(channel_id)))
             chat_title = entity.title
-            await update.reply(f'开始从 {chat_title} 的第 {0} 条消息下载')
+            await update.reply(f'开始从 {chat_title} 的第 {offset_id} 条消息下载')
         except Exception as e:
             await update.reply('chat输入错误，请输入频道或群组的链接\n\n'
                                f'错误类型：{type(e).__class__}'
